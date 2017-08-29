@@ -1,8 +1,12 @@
 package com.weather.app.service;
 
+import java.util.List;
+
 public interface WeatherService {
 
-    String showLogFile();
+    String callWeatherApi(final String city);
 
-    void callWeatherAPI();
+    boolean analyseWeatherForecast(final String weatherData);
+
+    List<String> availableCities();
 }

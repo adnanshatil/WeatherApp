@@ -1,0 +1,144 @@
+{
+    "Headline": {
+        "EffectiveDate": "2017-08-30T08:00:00+03:00",
+        "EffectiveEpochDate": 1504069200,
+        "Severity": 4,
+        "Text": "Expect rainy weather Wednesday morning through late Wednesday night",
+        "Category": "rain",
+        "EndDate": "2017-08-31T08:00:00+03:00",
+        "EndEpochDate": 1504155600,
+        "MobileLink": "http://m.accuweather.com/en/fi/helsinki/133328/extended-weather-forecast/133328?lang=en-us",
+        "Link": "http://www.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?lang=en-us"
+    },
+    "DailyForecasts": [{
+        "Date": "2017-08-28T07:00:00+03:00",
+        "EpochDate": 1503892800,
+        "Temperature": {
+            "Minimum": {
+                "Value": 46.0,
+                "Unit": "F",
+                "UnitType": 18
+            },
+            "Maximum": {
+                "Value": 60.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "Day": {
+            "Icon": 4,
+            "IconPhrase": "Intermittent clouds"
+        },
+        "Night": {
+            "Icon": 36,
+            "IconPhrase": "Intermittent clouds"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?lang=en-us",
+        "Link": "http://www.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?lang=en-us"
+    }, {
+        "Date": "2017-08-29T07:00:00+03:00",
+        "EpochDate": 1503979200,
+        "Temperature": {
+            "Minimum": {
+                "Value": 56.0,
+                "Unit": "F",
+                "UnitType": 18
+            },
+            "Maximum": {
+                "Value": 63.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "Day": {
+            "Icon": 4,
+            "IconPhrase": "Intermittent clouds"
+        },
+        "Night": {
+            "Icon": 36,
+            "IconPhrase": "Intermittent clouds"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=1&lang=en-us",
+        "Link": "http://www.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=1&lang=en-us"
+    }, {
+        "Date": "2017-08-30T07:00:00+03:00",
+        "EpochDate": 1504065600,
+        "Temperature": {
+            "Minimum": {
+                "Value": 55.0,
+                "Unit": "F",
+                "UnitType": 18
+            },
+            "Maximum": {
+                "Value": 66.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "Day": {
+            "Icon": 18,
+            "IconPhrase": "Rain"
+        },
+        "Night": {
+            "Icon": 12,
+            "IconPhrase": "Showers"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=2&lang=en-us",
+        "Link": "http://www.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=2&lang=en-us"
+    }, {
+        "Date": "2017-08-31T07:00:00+03:00",
+        "EpochDate": 1504152000,
+        "Temperature": {
+            "Minimum": {
+                "Value": 55.0,
+                "Unit": "F",
+                "UnitType": 18
+            },
+            "Maximum": {
+                "Value": 64.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "Day": {
+            "Icon": 13,
+            "IconPhrase": "Mostly cloudy w/ showers"
+        },
+        "Night": {
+            "Icon": 38,
+            "IconPhrase": "Mostly cloudy"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=3&lang=en-us",
+        "Link": "http://www.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=3&lang=en-us"
+    }, {
+        "Date": "2017-09-01T07:00:00+03:00",
+        "EpochDate": 1504238400,
+        "Temperature": {
+            "Minimum": {
+                "Value": 50.0,
+                "Unit": "F",
+                "UnitType": 18
+            },
+            "Maximum": {
+                "Value": 64.0,
+                "Unit": "F",
+                "UnitType": 18
+            }
+        },
+        "Day": {
+            "Icon": 4,
+            "IconPhrase": "Intermittent clouds"
+        },
+        "Night": {
+            "Icon": 38,
+            "IconPhrase": "Mostly cloudy"
+        },
+        "Sources": ["AccuWeather"],
+        "MobileLink": "http://m.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=4&lang=en-us",
+        "Link": "http://www.accuweather.com/en/fi/helsinki/133328/daily-weather-forecast/133328?day=4&lang=en-us"
+    }]
+}
