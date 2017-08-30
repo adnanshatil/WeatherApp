@@ -5,7 +5,6 @@ import com.weather.app.component.Temperature;
 import com.weather.app.component.TemperatureParser;
 import com.weather.app.constant.Constant;
 import com.weather.app.integration.WeatherDataPuller;
-import com.weather.app.log.CustomLogger;
 import com.weather.app.service.WeatherService;
 import com.weather.app.strategy.WeatherAppStrategy;
 import org.slf4j.Logger;
@@ -16,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
