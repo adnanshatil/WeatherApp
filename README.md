@@ -28,7 +28,7 @@ V. To run the program just execute below command from console and the spring boo
 ```
   $ java -jar app-0.0.1-SNAPSHOT.jar
 ```
-VI. Maybe wait for 1 minutes once it is started and go to this link- [http://localhost:9090/getLog](http://localhost:9090/getLog)
+VI. Maybe wait for 1 minute (approximately) once it is started and go to this link- [http://localhost:9090/getLog](http://localhost:9090/getLog)
 
 
 ### Background
@@ -49,4 +49,4 @@ II. **application.properties** is the file that contains all necessary propertie
  
  IV. As this is a free API so it can call 60 times per day. After that authorization is failed from AccuWeather web service and in the system "Network Error" is logged
  
- V. The CronJob doesn't start immediately just after the service starts but it waits for 1 minutes to start. However there is some pre-populated data on **log/app.log** file. And this link will not cause any error - [http://localhost:9090/getLog](http://localhost:9090/getLog) 
+ V. The CronJob doesn't start immediately just after the server starts. It waits for next minute with 00 second (12:01:00, 12:02:00 and so on) to start. However there is some pre-populated data on **log/app.log** file. And this link will not cause any error - [http://localhost:9090/getLog](http://localhost:9090/getLog) 
