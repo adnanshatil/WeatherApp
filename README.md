@@ -1,5 +1,6 @@
 # WeatherApp (built-on Spring Boot)
 
+
 ### Pre-requisite
 Before doing anything please make sure that you have below things already in place (this instructions are solely for MacOSX)- 
 
@@ -8,6 +9,7 @@ I. JAVA 8
 II. %JAVA_HOME% property is properly set in your environment so that **java -jar** command knows which java version to consider
 
 III. **Maven** is needed if you want to try this app with your IDE and further you need to make package
+
 
 ### Steps
 I. click on the target link and WeatherApplication.zip will be found there
@@ -27,6 +29,7 @@ V. To run the program just execute below command from console and the spring boo
   $ java -jar app-0.0.1-SNAPSHOT.jar
 ```
 VI. Maybe wait for 1 minutes once it is started and go to this link- [http://localhost:9090/getLog](http://localhost:9090/getLog)
+
 
 ### Background
 
