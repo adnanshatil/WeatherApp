@@ -40,5 +40,10 @@ II. **application.properties** is the file that contains all necessary propertie
  [CityName1],[CityKey1]|[CityName2],[CityKey2]|[CityName3],[CityKey3]
  ```
  - **threshold.temperature** is the threshold limit for weather alert in the log/app.log file
+ - **pulling.frequency** is the parameter for frequency setup to call AccuWeather weather forecast service. Currently it is set to **0 \*/1 \* \* \* ?** which means it'll run every minutes
  
  III. Basically [http://localhost:9090/getLog](http://localhost:9090/getLog) reads the log/app.log file and show it to the browser
+ 
+ IV. As this is a free API so it can call 60 times per day. After that authorization is failed from AccuWeather web service and in the system "Network Error" is logged
+ 
+ V. The CronJob doesn't start immediately just after the service starts but it waits for 1 minutes to start. However there is some pre-populated data on **log/app.log** file. And this link will not cause any error - [http://localhost:9090/getLog](http://localhost:9090/getLog) 
