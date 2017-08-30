@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a72ada8-b24b-4823-b6d2-3538b38eb1cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/service/CustomLoggerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultCustomLoggerService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/util/AppUtility.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/component/DailyForecast.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/component/DailyForecasts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/component/Maximum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/component/Minimum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/controller/LogController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/integration/WeatherApiInterface.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/controller/LogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/controller/WeatherController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherApiInterface.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/component/City.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/component/Temperature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureParser.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/component/DailyForecast.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/component/DailyForecasts.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/component/Maximum.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/component/Minimum.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/constant/Constant.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/constant/Constant.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/integration/WeatherDataPuller.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/integration/WeatherDataPuller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/job/ScheduledJob.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/job/ScheduledJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/log/CustomLogger.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/log/CustomLogger.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/service/WeatherService.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/service/WeatherService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/service/impl/DefaultWeatherService.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/service/impl/DefaultWeatherService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/weather/app/strategy/WeatherAppStrategy.class" afterPath="$PROJECT_DIR$/target/classes/com/weather/app/strategy/WeatherAppStrategy.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/app.log" afterPath="$PROJECT_DIR$/log/app.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/system.log" afterPath="$PROJECT_DIR$/log/system.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/constant/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/constant/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/service/WeatherService.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/service/WeatherService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultWeatherService.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultWeatherService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java" afterPath="$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
@@ -44,18 +46,28 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomLogger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java">
+      <file leaf-file-name="ScheduledJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="400">
+              <caret line="45" column="92" lean-forward="false" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherDataPuller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="708">
+              <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,21 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherAppStrategy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-245">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="app.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/app.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="-12763">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherDataPuller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java">
+      <file leaf-file-name="WeatherAppStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="368">
+              <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,6 +102,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -123,19 +135,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/controller/LogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/service/CustomLoggerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/controller/WeatherController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/service/WeatherService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultWeatherService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/util/WeatherUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/util/AppUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultCustomLoggerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/constant/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java" />
         <option value="$PROJECT_DIR$/log/system.log" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/component/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/component/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/service/WeatherService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/constant/Constant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultWeatherService.java" />
         <option value="$PROJECT_DIR$/log/app.log" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java" />
       </list>
     </option>
   </component>
@@ -204,6 +220,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
@@ -319,12 +344,6 @@
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="maven-archiver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,6 +505,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
@@ -500,7 +520,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -520,7 +540,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureParser.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -574,9 +602,9 @@
         <state relative-caret-position="165">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#1048#1049#0" expanded="false" />
-            <element signature="e#1109#1110#0" expanded="false" />
-            <element signature="e#1365#1373#0" expanded="false" />
+            <element signature="e#1274#1275#0" expanded="false" />
+            <element signature="e#1335#1336#0" expanded="false" />
+            <element signature="e#1577#1583#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/service/WeatherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/util/AppUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -736,36 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultWeatherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#1048#1049#0" expanded="false" />
-            <element signature="e#1109#1110#0" expanded="false" />
-            <element signature="e#1365#1373#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/constant/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="31" column="86" lean-forward="false" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -844,19 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/app.log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/system.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="-3570">
@@ -866,37 +843,135 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/log/CustomLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="51" column="14" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="533">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/component/TemperatureParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="149">
+          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#908#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/component/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/component/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/service/WeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/constant/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/service/impl/DefaultWeatherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#1577#1583#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/strategy/WeatherAppStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="368">
+          <caret line="50" column="54" lean-forward="false" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/app.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-12763">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/job/ScheduledJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="45" column="92" lean-forward="false" selection-start-line="45" selection-start-column="92" selection-end-line="45" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weather/app/integration/WeatherDataPuller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="68" column="6" lean-forward="false" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

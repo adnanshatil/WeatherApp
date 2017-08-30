@@ -23,8 +23,6 @@ public class CustomLogger {
 
     public void writeToLog(final String line) {
 
-        LOG.info("writing to custom Logging file");
-
         if (!StringUtils.isEmpty(line)) {
             Path path = Paths.get(customLoggingFile);
 
@@ -43,19 +41,10 @@ public class CustomLogger {
             }catch (IOException exp) {
                 LOG.error("Error writing into file: " + exp.getMessage());
             }
-            /*
-            try (final BufferedWriter bufferedWriter = Files.newBufferedWriter(path)) {
-                bufferedWriter.append(line);
-            } catch(IOException exp) {
-                LOG.error("Error writing into file: " + exp.getMessage());
-            }
-            */
         }
     }
 
     public String readFromLog() {
-
-        LOG.info("reading from custom Logging file");
 
         Path path = Paths.get(customLoggingFile);
 

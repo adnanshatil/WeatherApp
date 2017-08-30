@@ -1,5 +1,6 @@
 package com.weather.app.job;
 
+import com.weather.app.component.City;
 import com.weather.app.service.impl.DefaultCustomLoggerService;
 import com.weather.app.service.impl.DefaultWeatherService;
 import com.weather.app.util.AppUtility;
@@ -27,24 +28,22 @@ public class ScheduledJob {
     public void execute() {
         LOG.info("starting scheduled job @ " + AppUtility.getCrrentDateAndTime());
 
-        final List<String> cities = defaultWeatherService.availableCities();
+        final List<City> cities = defaultWeatherService.availableCities();
 
+        defaultCustomLoggerService.writeToCustomLog("Weather service @ " + AppUtility.getCrrentDateAndTime());
         defaultCustomLoggerService.writeToCustomLog("Found cities: " + cities.size());
 
-        for(final String city: cities) {
-            defaultCustomLoggerService.writeToCustomLog("Fetching data for city: " + city);
+        for(final City city: cities) {
+            defaultCustomLoggerService.writeToCustomLog("Fetching data for city: " + city.getCityName());
 
-            final String weatherForecastData = defaultWeatherService.callWeatherApi(city);
+            final String weatherForecastData = defaultWeatherService.callWeatherApi(city.getCityKey());
 
             if(!StringUtils.isEmpty(weatherForecastData)) {
-                // defaultCustomLoggerService.writeToCustomLog("Received data for " + city + ": " + weatherForecastData);
-
-                if(defaultWeatherService.analyseWeatherForecast(weatherForecastData)) {
-                    continue;
-                }
+                defaultWeatherService.analyseWeatherForecast(weatherForecastData);
             }
         }
 
+        defaultCustomLoggerService.writeToCustomLog("*** *** *** *** *** *** *** *** *** ***");
         LOG.info("ending scheduled job @ " + AppUtility.getCrrentDateAndTime());
     }
 }

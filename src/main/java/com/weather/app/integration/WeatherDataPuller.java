@@ -1,10 +1,13 @@
 package com.weather.app.integration;
 
 import com.weather.app.constant.Constant;
+import com.weather.app.service.impl.DefaultCustomLoggerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
@@ -21,24 +24,32 @@ public class WeatherDataPuller {
     @Value("${api.key}")
     private String apiKey;
 
-    /*
+    @Autowired
+    DefaultCustomLoggerService defaultCustomLoggerService;
+
     public String callWeatherApi(final String city) {
 
         LOG.info("calling AccuWeather API");
 
         final String apiUriWithCityCode = Constant.API_URI.replace(Constant.CITY_PARAM, city).replace(Constant.API_KEY_PARAM, apiKey);
 
-        LOG.info("AccuWeather API: " + apiUriWithCityCode);
+        String result = Constant.EMPTY_STRING;
 
-        final String result = new RestTemplate().getForObject(apiUriWithCityCode, String.class);
+        try {
+            result = new RestTemplate().getForObject(apiUriWithCityCode, String.class);
+            if(!StringUtils.isEmpty(result)) {
+                defaultCustomLoggerService.writeToCustomLog("Network connectivity OK! Fetched data nicely");
+            }
+        } catch (Exception exp) {
+            defaultCustomLoggerService.writeToCustomLog("Unable to connect to network");
+        }
 
         LOG.info("API result" + result);
 
         return result;
     }
-    */
 
-
+    /*
     public String callWeatherApi(final String city) {
 
         Path path = Paths.get("sample/Result.json");
@@ -55,6 +66,6 @@ public class WeatherDataPuller {
 
         return Constant.EMPTY_STRING;
     }
-
+    */
 
 }
