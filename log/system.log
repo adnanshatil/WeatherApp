@@ -901,3 +901,68 @@
 2017-08-30 04:24:28.289  INFO 49700 --- [main] com.weather.app.AppApplication           : Started AppApplication in 11.862 seconds (JVM running for 12.226)
 2017-08-30 04:24:36.749  INFO 49700 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:24:26 EEST 2017]; root of context hierarchy
 2017-08-30 04:24:36.750  INFO 49700 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-08-30 04:39:40.673  INFO 49823 --- [main] com.weather.app.AppApplication           : Starting AppApplication on Adnans-MacBook-Pro.local with PID 49823 (/Users/adnan/git/app/target/classes started by adnan in /Users/adnan/git/app)
+2017-08-30 04:39:40.677  INFO 49823 --- [main] com.weather.app.AppApplication           : No active profile set, falling back to default profiles: default
+2017-08-30 04:39:40.720  INFO 49823 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:39:40 EEST 2017]; root of context hierarchy
+2017-08-30 04:39:41.567  INFO 49823 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2017-08-30 04:39:41.578  INFO 49823 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-08-30 04:39:41.579  INFO 49823 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-08-30 04:39:41.660  INFO 49823 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-08-30 04:39:41.661  INFO 49823 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 943 ms
+2017-08-30 04:39:41.759  INFO 49823 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-30 04:39:41.762  INFO 49823 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-30 04:39:41.763  INFO 49823 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-30 04:39:41.763  INFO 49823 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-30 04:39:41.763  INFO 49823 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-30 04:39:42.022  INFO 49823 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:39:40 EEST 2017]; root of context hierarchy
+2017-08-30 04:39:42.078  INFO 49823 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weather.app.controller.WeatherController.returnMenu()
+2017-08-30 04:39:42.079  INFO 49823 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getLog],methods=[GET]}" onto public java.lang.String com.weather.app.controller.WeatherController.returnLog()
+2017-08-30 04:39:42.081  INFO 49823 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-30 04:39:42.082  INFO 49823 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-30 04:39:42.103  INFO 49823 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:39:42.103  INFO 49823 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:39:42.128  INFO 49823 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:39:42.216  INFO 49823 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-08-30 04:39:42.225  INFO 49823 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-08-30 04:39:42.288  INFO 49823 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
+2017-08-30 04:39:42.292  INFO 49823 --- [main] com.weather.app.AppApplication           : Started AppApplication in 11.897 seconds (JVM running for 12.361)
+2017-08-30 04:39:49.944  INFO 49823 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-30 04:39:49.945  INFO 49823 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-30 04:39:49.957  INFO 49823 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2017-08-30 04:39:49.981  INFO 49823 --- [http-nio-9090-exec-1] c.w.app.controller.WeatherController     : /getLog API call
+2017-08-30 04:40:00.006  INFO 49823 --- [pool-1-thread-1] com.weather.app.job.ScheduledJob         : starting scheduled job @ 30/08/17 04:40:00
+2017-08-30 04:40:00.008  INFO 49823 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:40:01.540  INFO 49823 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:40:01.541  INFO 49823 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:40:01.689  INFO 49823 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:40:01.690  INFO 49823 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:40:01.860  INFO 49823 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:40:01.861  INFO 49823 --- [pool-1-thread-1] com.weather.app.job.ScheduledJob         : ending scheduled job @ 30/08/17 04:40:01
+2017-08-30 04:40:49.583  INFO 49823 --- [http-nio-9090-exec-3] c.w.app.controller.WeatherController     : /getLog API call
+2017-08-30 04:43:33.440  INFO 49823 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:39:40 EEST 2017]; root of context hierarchy
+2017-08-30 04:43:33.442  INFO 49823 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-08-30 04:43:49.756  INFO 49847 --- [main] com.weather.app.AppApplication           : Starting AppApplication on Adnans-MacBook-Pro.local with PID 49847 (/Users/adnan/git/app/target/classes started by adnan in /Users/adnan/git/app)
+2017-08-30 04:43:49.760  INFO 49847 --- [main] com.weather.app.AppApplication           : No active profile set, falling back to default profiles: default
+2017-08-30 04:43:49.802  INFO 49847 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:43:49 EEST 2017]; root of context hierarchy
+2017-08-30 04:43:50.636  INFO 49847 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2017-08-30 04:43:50.647  INFO 49847 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-08-30 04:43:50.648  INFO 49847 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-08-30 04:43:50.731  INFO 49847 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-08-30 04:43:50.731  INFO 49847 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 932 ms
+2017-08-30 04:43:50.828  INFO 49847 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-30 04:43:50.831  INFO 49847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-30 04:43:50.831  INFO 49847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-30 04:43:50.831  INFO 49847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-30 04:43:50.831  INFO 49847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-30 04:43:51.057  INFO 49847 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:43:49 EEST 2017]; root of context hierarchy
+2017-08-30 04:43:51.115  INFO 49847 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weather.app.controller.WeatherController.returnMenu()
+2017-08-30 04:43:51.116  INFO 49847 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getLog],methods=[GET]}" onto public java.lang.String com.weather.app.controller.WeatherController.returnLog()
+2017-08-30 04:43:51.118  INFO 49847 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-30 04:43:51.118  INFO 49847 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-30 04:43:51.137  INFO 49847 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:43:51.137  INFO 49847 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:43:51.161  INFO 49847 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:43:51.246  INFO 49847 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-08-30 04:43:51.254  INFO 49847 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-08-30 04:43:51.302  INFO 49847 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
+2017-08-30 04:43:51.307  INFO 49847 --- [main] com.weather.app.AppApplication           : Started AppApplication in 11.823 seconds (JVM running for 12.185)

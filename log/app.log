@@ -1,4 +1,4 @@
-Weather service @ 30/08/17 04:00:00
+Weather service @ 30/08/17 04:00:00<br>
 Found cities: 3
 Fetching data for city: Helsinki
 Network connectivity OK! Fetched data nicely
@@ -1429,4 +1429,13 @@ Date: 2017-08-30 Minimum: 55.0 Maximum: 66.0
 Date: 2017-08-31 Minimum: 55.0 Maximum: 64.0
 Date: 2017-09-01 Minimum: 50.0 Maximum: 64.0
 No alert found for this forecast
+*** *** *** *** *** *** *** *** *** ***
+Weather service @ 30/08/17 04:40:00
+Found cities: 3
+Fetching data for city: Helsinki
+Unable to connect to network
+Fetching data for city: Oulu
+Unable to connect to network
+Fetching data for city: Rovaniemi
+Unable to connect to network
 *** *** *** *** *** *** *** *** *** ***
