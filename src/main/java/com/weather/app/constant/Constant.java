@@ -1,7 +1,7 @@
 package com.weather.app.constant;
 
 public class Constant {
-    public final static String MENU = "";
+    public final static String MENU = "Your correct URL should be: http://localhost:9090/getLog";
     public final static String EMPTY_STRING = "";
     public final static String CITY_DELIMITER = "|";
     public final static String CITY_KEY_VALUE_DELIMITER = ",";
