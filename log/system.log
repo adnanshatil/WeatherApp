@@ -966,3 +966,35 @@
 2017-08-30 04:43:51.254  INFO 49847 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
 2017-08-30 04:43:51.302  INFO 49847 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
 2017-08-30 04:43:51.307  INFO 49847 --- [main] com.weather.app.AppApplication           : Started AppApplication in 11.823 seconds (JVM running for 12.185)
+2017-08-30 04:45:00.002  INFO 49847 --- [pool-1-thread-1] com.weather.app.job.ScheduledJob         : starting scheduled job @ 30/08/17 04:45:00
+2017-08-30 04:45:00.011  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:45:00.707  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:45:00.708  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:45:00.839  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:45:00.840  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:45:00.976  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:45:00.977  INFO 49847 --- [pool-1-thread-1] com.weather.app.job.ScheduledJob         : ending scheduled job @ 30/08/17 04:45:00
+2017-08-30 04:49:59.992  INFO 49847 --- [pool-1-thread-1] com.weather.app.job.ScheduledJob         : starting scheduled job @ 30/08/17 04:49:59
+2017-08-30 04:49:59.994  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:50:00.772  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:50:00.773  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:50:00.914  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:50:00.915  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : calling AccuWeather API
+2017-08-30 04:50:01.046  INFO 49847 --- [pool-1-thread-1] c.w.app.integration.WeatherDataPuller    : API result
+2017-08-30 04:50:01.047  INFO 49847 --- [pool-1-thread-1] com.weather.app.job.ScheduledJob         : ending scheduled job @ 30/08/17 04:50:01
+2017-08-30 04:50:06.800  INFO 49847 --- [Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@b59d31: startup date [Wed Aug 30 04:43:49 EEST 2017]; root of context hierarchy
+2017-08-30 04:50:06.802  INFO 49847 --- [Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-08-30 04:52:19.872  INFO 49925 --- [main] com.weather.app.AppApplicationTests      : Starting AppApplicationTests on Adnans-MacBook-Pro.local with PID 49925 (started by adnan in /Users/adnan/git/app)
+2017-08-30 04:52:19.874  INFO 49925 --- [main] com.weather.app.AppApplicationTests      : No active profile set, falling back to default profiles: default
+2017-08-30 04:52:19.902  INFO 49925 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6497b078: startup date [Wed Aug 30 04:52:19 EEST 2017]; root of context hierarchy
+2017-08-30 04:52:20.853  INFO 49925 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6497b078: startup date [Wed Aug 30 04:52:19 EEST 2017]; root of context hierarchy
+2017-08-30 04:52:20.904  INFO 49925 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weather.app.controller.WeatherController.returnMenu()
+2017-08-30 04:52:20.905  INFO 49925 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getLog],methods=[GET]}" onto public java.lang.String com.weather.app.controller.WeatherController.returnLog()
+2017-08-30 04:52:20.907  INFO 49925 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-30 04:52:20.908  INFO 49925 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-30 04:52:20.929  INFO 49925 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:52:20.930  INFO 49925 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:52:20.956  INFO 49925 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-30 04:52:21.056  INFO 49925 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2017-08-30 04:52:21.067  INFO 49925 --- [main] com.weather.app.AppApplicationTests      : Started AppApplicationTests in 11.395 seconds (JVM running for 11.928)
+2017-08-30 04:52:21.111  INFO 49925 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6497b078: startup date [Wed Aug 30 04:52:19 EEST 2017]; root of context hierarchy

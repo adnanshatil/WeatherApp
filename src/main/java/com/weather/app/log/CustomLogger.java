@@ -7,7 +7,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -52,7 +56,7 @@ public class CustomLogger {
             final List<String> fileLines = Files.readAllLines(path);
 
             if(!fileLines.isEmpty()) {
-                return String.join(Constant.EMPTY_STRING, fileLines);
+                return String.join(Constant.LINE_BREAK, fileLines);
             }
         } catch(IOException exp) {
             LOG.error("Error reading from file: " + exp.getMessage());

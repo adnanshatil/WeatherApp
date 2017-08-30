@@ -6,6 +6,7 @@ public class Constant {
     public final static String CITY_DELIMITER = "|";
     public final static String CITY_KEY_VALUE_DELIMITER = ",";
     public final static String DATE_FORMAT = "dd/MM/yy HH:mm:ss";
+    public final static String LINE_BREAK = "<br>";
 
     public final static String CITY_PARAM = "{CITY}";
     public final static String API_KEY_PARAM = "{API_KEY}";
